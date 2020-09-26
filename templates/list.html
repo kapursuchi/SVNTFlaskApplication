@@ -7,8 +7,8 @@
 <body>
     <h1>{{title}}</h1>
     <!--Display the lists according to the file path specifications (function called based on path)-->
-    {%for i in range(0, len)%}
-        {{numlist[i]}}
+    {%for i in numlist%}
+        {{i}}
         <br />
     {%endfor%}
 
